@@ -1,16 +1,16 @@
 var NAVTREE =
 [
-  [ "Primo Codecs for C++", "index.html", [
+  [ "PrimoCodecs for C++", "index.html", [
     [ "Welcome", "index.html", [
       [ "Other Resources", "index.html#sec_other_resources", null ]
     ] ],
     [ "Runtime Requirements", "md__runtime_requirements_8page.html", [
-      [ "Primo Codecs", "md__runtime_requirements_8page.html#PrimoCodecsRuntimeRequirements", null ],
+      [ "PrimoCodecs", "md__runtime_requirements_8page.html#PrimoCodecsRuntimeRequirements", null ],
       [ "TODO: PrimoCodecs Samples", "md__runtime_requirements_8page.html#PrimoCodecsSamplesRuntimeRequirements", null ]
     ] ],
     [ "Object Management", "md__object_management_8page.html", [
       [ "Object Management", "md__object_management_8page.html#object_management", null ],
-      [ "Common Rules for Object Management in Primo Codecs (C++)", "md__object_management_8page.html#object_management_common_rules", null ],
+      [ "Common Rules for Object Management in PrimoCodecs (C++)", "md__object_management_8page.html#object_management_common_rules", null ],
       [ "Objects with reference management", "md__object_management_8page.html#object_management_ref", [
         [ "Creating Objects", "md__object_management_8page.html#object_management_ref__create", null ],
         [ "Passing Objects as Function Parameters", "md__object_management_8page.html#object_management_ref__func_params", null ],

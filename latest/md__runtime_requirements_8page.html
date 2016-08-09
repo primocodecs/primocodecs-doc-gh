@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>Primo Codecs for C++: Runtime Requirements</title>
+<title>PrimoCodecs for C++: Runtime Requirements</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -23,7 +23,7 @@
     if ($('.searchresults').length > 0) { searchBox.DOMSearchField().focus(); }
   });
 </script>
-<link rel="search" href="search-opensearch.php?v=opensearch.xml" type="application/opensearchdescription+xml" title="Primo Codecs for C++"/>
+<link rel="search" href="search-opensearch.php?v=opensearch.xml" type="application/opensearchdescription+xml" title="PrimoCodecs for C++"/>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="extra-doxygen.css" rel="stylesheet" type="text/css"/>
 <script>
@@ -42,7 +42,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
-   <div id="projectname">Primo Codecs for C++
+   <div id="projectname">PrimoCodecs for C++
    &#160;<span id="projectnumber">2.1</span>
    </div>
    <div id="projectbrief">Audio and Video Software Development Kit</div>
@@ -98,17 +98,17 @@ $(document).ready(function(){initNavTree('md__runtime_requirements_8page.html','
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><h1><a class="anchor" id="PrimoCodecsRuntimeRequirements"></a>
-Primo Codecs</h1>
+PrimoCodecs</h1>
 <h2>Windows</h2>
 <h3>wmvcore.dll</h3>
-<p><code>wmvcore.dll</code> is loaded dynamically by Primo Codecs and is used for ASF muxing and demuxing (Windows Media).</p>
+<p><code>wmvcore.dll</code> is loaded dynamically by PrimoCodecs and is used for ASF muxing and demuxing (Windows Media).</p>
 <p>NOTE:</p>
 <ul>
 <li><code>wmvcore.dll</code> is not installed by default on Windows Server 2008, 2008 R2, 2012, and 2012 R2. On those systems you will need to install the "Media Foundation" or "Desktop Experience" feature from "Server Manager".</li>
 <li><code>wmvcore.dll</code> is not present by default on Windows "N" versions, or on Windows versions without Windows Media Player.</li>
 </ul>
 <h3>msdmo.dll</h3>
-<p>This library is loaded dynamically by Primo Codecs and is used for the Windows Media codecs (WMA/WMV).</p>
+<p>This library is loaded dynamically by PrimoCodecs and is used for the Windows Media codecs (WMA/WMV).</p>
 <h2>Linux (Ubuntu, Debian)</h2>
 <p>To install all dependencies you can run this command in Terminal:</p>
 <p>Ubuntu: </p>
@@ -116,22 +116,22 @@ Primo Codecs</h1>
 </div><!-- fragment --><p>Debian: </p>
 <div class="fragment"><div class="line">sudo apt-<span class="keyword">get</span> install libjpeg62 libtiff5 libpng12-0 libtbb2</div>
 </div><!-- fragment --><h3>libjpeg.so.62 | libjpeg.so.8 | libtiff.so.5 | libpng12.so.0</h3>
-<p>These libraries are loaded dynamically by Primo Codecs to handle the corresponding image format (jpeg/tiff/png):</p>
+<p>These libraries are loaded dynamically by PrimoCodecs to handle the corresponding image format (jpeg/tiff/png):</p>
 <ul>
 <li>libjpeg.so.8 or libjpeg.so.62 - JPEG Library</li>
 <li>libtiff.so.5 - TIFF Library and Utilities</li>
 <li>libpng12.so.0 - PNG Reference Library</li>
 </ul>
 <h3>libtbb.so.2</h3>
-<p>TODO: This library is needed by Primo Codecs, <code>libPrimoCodecs.so</code> will not load without this library:</p>
+<p>TODO: This library is needed by PrimoCodecs, <code>libPrimoCodecs.so</code> will not load without this library:</p>
 <ul>
 <li>libtbb.so.2 - Intel Threading Building Blocks - used for multi-core parallel processing on Linux.</li>
 </ul>
 <h1><a class="anchor" id="PrimoCodecsSamplesRuntimeRequirements"></a>
 TODO: PrimoCodecs Samples</h1>
-<p>The samples provided with Primo Codecs may need additional tools/libraries to be built.</p>
+<p>The samples provided with PrimoCodecs may need additional tools/libraries to be built.</p>
 <h2>Windows</h2>
-<p>Primo Codecs samples come with solutions and projects for Visual Studio 2015. The AudioConverter and VideoConverter GUI samples use MFC as a shared dll.</p>
+<p>PrimoCodecs samples come with solutions and projects for Visual Studio 2015. The AudioConverter and VideoConverter GUI samples use MFC as a shared dll.</p>
 <h2>Mac</h2>
 <p>The AudioConverter and VideoConverter GUI samples are built with Cocoa and do not require any external frameworks.</p>
 <h2>Linux (Ubuntu, Debian)</h2>
