@@ -1,6 +1,6 @@
 var NAVTREE =
 [
-  [ "PrimoCodecs for C++", "index.html", [
+  [ "PrimoCodecs Core Docs (C / C++)", "index.html", [
     [ "Welcome", "index.html", [
       [ "Other Resources", "index.html#sec_other_resources", null ]
     ] ],
